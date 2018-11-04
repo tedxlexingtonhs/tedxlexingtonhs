@@ -1,2 +1,1 @@
-# tedxlexingtonhs
-Website for TEDxLexingtonHS
+http://tedxlexington.org
