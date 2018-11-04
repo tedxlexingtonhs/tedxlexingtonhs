@@ -1,0 +1,328 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+
+.semi {
+	/* black for browsers which cannot support rgba */
+	background-color: #000;
+  
+	/* 70% opacity for supported browsers */
+	background-color:paleturquoise;
+  
+	/* IE 5.5+ support #BB000000 is ~70% opacity on black */
+	filter:progid:DXImageTransform.Microsoft.gradient(
+	  startColorstr=#BB000000, endColorstr=#BB000000
+	);
+  
+	/* IE 8 support */
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(
+	  startColorstr=#BB000000, endColorstr=#BB000000);
+  }
+
+/*-----------------------------------------------------------------------------------*/
+
+.content {
+	width: 70%;
+	margin-left: 15%;
+}
+
+.content p, .content pre {
+	font-family: "PT Sans";
+	font-size: 1.0em;
+}
+
+.content .contentSection {
+	padding: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	box-shadow: 8px 8px 6px #a59e9e;
+}
+
+.textBox span{
+	font-weight: bold;
+}
+
+.blue .textBox a{
+	color: rgb(134, 66, 27);
+}
+
+.yellow .textBox a {
+	color: #c96625d8;
+}
+
+.blue {
+	background-color: #316bb2;
+	color: #E0E0E0;
+}
+
+.yellow {
+	background-color: rgba(221, 17, 17, 0.651);
+	color: rgb(0, 0, 0);
+}
+
+#Contact {
+	margin-bottom: 120px !important;
+}
+
+
+#FAQ .textBox div {
+	width: calc(50% - 60px);
+	margin-right: 40px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#FAQ .textBox div h3 {
+	font-size: 4em;
+	font-weight: bold;
+}
+
+#secret {
+	color: #316ba3
+}
+
+/*-------------------------------------------------------------------------*/
+
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+a:hover span{
+	font-weight:bold;
+}
+
+.button {
+    font-size: 18px;    
+	color: red;
+	line-height: 15px;
+}
+
+/*-------------------------------------------------------------------------*/
+
+.button pre{
+	font-family: 'Lato', sans-serif;
+	font-size: 1.0em;
+}
+
+.TEDM{
+	
+	font-family: 'Kanit', sans-serif;
+	font-size: 3.2em;
+	align-content: center;
+	line-height: 1em;
+
+}
+
+.LEXINGTONM{
+	letter-spacing: 7px;
+	font-family: 'Lato', sans-serif;
+	font-size: 2.3em;
+	align-content: center;
+}
+
+.LEXINGTONN{
+	letter-spacing: 0px;
+	font-family: 'Lato', sans-serif;
+	font-size: 2.3em;
+	align-content: center;
+}
+
+#grad1 {
+    background-color: rgba(228, 217, 217, 0.74); /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgba(179, 166, 166, 0.226), rgb(255, 255, 255)); /* Standard syntax (must be last) */
+}
+
+
+.MyGradientClass
+{
+	background-color: rgba(228, 217, 217, 0.74); /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255)); /* Standard syntax (must be last) */
+}
+
+.appBackground {
+    position: relative;
+    background-image: url(".../img/background.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+}
+
+.IMG{
+	height:100%; width:auto;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+.fixedTopMenu {
+	position: fixed;
+	top: 0px;
+	z-index: 999;
+	height: 60px;
+}
+
+.fixedBottomMenu {
+	position: fixed;
+	bottom: 0px;
+	height: 60px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+}
+
+.staticMenu {
+	position: relative;
+	top: 0px;
+	height: 60px;
+}
+
+
+#menu {
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 4px 4px #707070;
+}
+
+.pseudomenu{
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	font-family: 'Lato', sans-serif;
+	align-content: center;
+	font-size: 2.3em;
+}
+
+.hazemaster-gray-gradient { 
+	background: -webkit-linear-gradient(360deg,#940101 10%,#efefef 360%); 
+	background: linear-gradient(360deg,#920404 10%,#efefef 360%); 
+}
+
+
+
+#menu ul{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	width: 100%;
+}
+
+
+
+#menu li{
+	display: inline-block;
+	text-align: center;
+	width: 17.5%;
+	padding-top: 0px;
+	display: inline-block;
+	text-align: center;
+	width: auto;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+
+#menu li ye{
+	margin-bottom: 10px;
+}
+
+
+@media only screen and (min-width:1020px){
+	#otherthing{
+		display: none;
+	}
+}
+
+
+@media only screen and (max-width: 1020px) {
+	#menu{
+		display:none;
+	}
+	#meep{
+		display:none;
+	}
+	#otherthing{
+		display:show;
+	}
+	/*
+    .content .x490{display:none;}
+    .content .x290{display:none;}*/
+
+}
+
+#otherthing {
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 4px 4px #707070;
+}
+
+
+
+#otherthing a:hover span{
+	font-weight: 0;
+}
+
+
+
+th { font-weight: normal; }
+
+/*----------------------------------------------------------------*/
+
+.BCIMG img{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	z-index: -1;
+	overflow: hidden;
+}
+
+
+.crop{
+	max-height: 710px;
+	overflow: hidden;
+}
+
+
+@media only screen and (max-width: 990px){
+	#A{
+		display: show;
+	}
+	#AA{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 990px){
+	#A{
+		display: none;
+	}
+	#AA{
+		display: show;
+	}
+}
+
+.scrop {
+	object-fit: cover;
+	height: 674px;
+	width: 100%;
+}
+
+
+/*
+@media only screen and (min-width: 710px){
+}*/
+
