@@ -319,6 +319,8 @@ th { font-weight: normal; }
 	object-fit: cover;
 	height: 674px;
 	width: 100%;
+	background-position-x: 0; 
+	background-position-y: 0;
 }
 
 
