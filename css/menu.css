@@ -317,6 +317,7 @@ th { font-weight: normal; }
 
 .scrop {
 	object-fit: cover;
+	object-position: right top;
 	height: 674px;
 	width: 100%;
 }
