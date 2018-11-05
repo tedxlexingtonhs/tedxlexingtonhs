@@ -41,23 +41,24 @@
 	font-weight: bold;
 }
 
-.blue .textBox a{
-	color: rgb(134, 66, 27);
-}
 
-.yellow .textBox a {
-	color: #c96625d8;
-}
+	/*color: linear-gradient(to bottom right,#B58ECC, #5DE6DE);*/
 
-.blue {
-	background-color: #316bb2;
-	color: #E0E0E0;
-}
 
 .yellow {
-	background-color: rgba(221, 17, 17, 0.651);
-	color: rgb(0, 0, 0);
+  background: #466368;
+  background: -webkit-linear-gradient(#B58ECC, #5DE6DE);
+  background:    -moz-linear-gradient(#B58ECC, #5DE6DE);
+  background:         linear-gradient(#B58ECC, #5DE6DE);
 }
+
+.yellow2 {
+	background: #466368;
+	background: -webkit-linear-gradient(#648880, #293f50);
+	background:    -moz-linear-gradient(#648880, #293f50);
+	background:         linear-gradient(#648880, #293f50);
+  }
+
 
 #Contact {
 	margin-bottom: 120px !important;
@@ -320,9 +321,12 @@ th { font-weight: normal; }
 	object-position: top right;
 	height: 674px;
 	width: 100%;
-	background-position-x: 0; 
-	background-position-y: 0;
 }
+
+
+/*
+@media only screen and (min-width: 710px){
+}*/
 
 
 @media only screen and (min-width: 790px){
@@ -342,4 +346,3 @@ th { font-weight: normal; }
 	display: show;
 }
 }
-
