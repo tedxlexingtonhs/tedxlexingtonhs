@@ -34,7 +34,7 @@
 	padding: 40px;
 	margin-top: 40px;
 	margin-bottom: 40px;
-	box-shadow: 8px 8px 6px #a59e9e;
+	/*box-shadow: 8px 8px 6px #a59e9e;*/
 }
 
 .textBox span{
@@ -45,19 +45,6 @@
 	/*color: linear-gradient(to bottom right,#B58ECC, #5DE6DE);*/
 
 
-.yellow {
-  background: #466368;
-  background: -webkit-linear-gradient(#B58ECC, #5DE6DE);
-  background:    -moz-linear-gradient(#B58ECC, #5DE6DE);
-  background:         linear-gradient(#B58ECC, #5DE6DE);
-}
-
-.yellow2 {
-	background: #466368;
-	background: -webkit-linear-gradient(#648880, #293f50);
-	background:    -moz-linear-gradient(#648880, #293f50);
-	background:         linear-gradient(#648880, #293f50);
-  }
 
 
 #Contact {
@@ -240,6 +227,28 @@ a:hover span{
 	margin-bottom: 10px;
 }
 
+#FH ul{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	width: 100%;
+}
+
+#FH li{
+	display: inline-block;
+	text-align: center;
+	width: 17.5%;
+	padding-top: 0px;
+	display: inline-block;
+	text-align: center;
+	width: auto;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
 
 @media only screen and (min-width:1020px){
 	#otherthing{
@@ -346,3 +355,38 @@ th { font-weight: normal; }
 	display: show;
 }
 }
+
+
+
+@media only screen and (max-width: 500px){
+	
+	
+	/*Contains small version of the logo where it's stacked on top of eachother*/
+}
+
+
+
+@media only screen and (min-width: 500px){
+/*contains the medium version of the logo (the stuff is in line)*/
+}
+
+@media only screen and (max-width: 1020px){
+/*Contains the logo v1*/
+}
+
+@media only screen and (min-width: 1020px){
+/*Has no logo cuz there's no need for one (the menu takes care of that.)*/
+}
+
+/*so there's three logos*/
+
+
+.yellow {
+  background: #6A93CB;
+}
+
+.yellow2 {
+	background: #6A93CB;
+}
+
+
